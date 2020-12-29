@@ -21,10 +21,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 2. Verify that gh-pages dependency is present and below scripts are present:
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-3. Run "npm run deploy" command. This command will build your application and publish the application on github. It will also commit build code under gh-pages branch.
-4. URL to access application is present in Github under Settings > Options > Github Pages.
-
-This will build project using gh-pages and deploy it on github.
-Define "homepage": "https://681393.github.io/Resume" in package.json file below version tag.
-gh-pages will deploy and publish project in github which can be accessed using above link.
-Above link is the link to Resume repository. We can change github repository link as per our requirement.
+3. Create gh-pages branch in github    
+4. Run "npm run deploy" command. This command will build your application and publish the application on github. It will also commit build code under gh-pages branch.
+5. URL to access application is present in Github under Settings > Options > Github Pages.
