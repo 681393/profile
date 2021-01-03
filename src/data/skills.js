@@ -18,7 +18,7 @@ export const skills = {
     {
       heading: "BackEnd",
       data: [
-        "Java 8",
+        "Java",
         "Spring-Core",
         "Spring-MVC",
         "Spring-Boot",

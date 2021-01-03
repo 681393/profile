@@ -1,8 +1,8 @@
 import { menuItems } from "../data/menuItems";
 
 const link = () => {
-  return menuItems.map((menuItem) => (
-    <li className="nav-item mx-2">
+  return menuItems.map((menuItem, index) => (
+    <li key={index} className="nav-item mx-2">
       <a className={`nav-link ${menuItem.active}`} href={menuItem.link}>
         {menuItem.item}
       </a>

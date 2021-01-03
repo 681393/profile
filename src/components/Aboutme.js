@@ -1,5 +1,6 @@
 import AboutmeImage from "../img/about_me.svg";
 import { aboutme } from "../data/aboutme";
+import Resume from "../resume/HimanshuJain.pdf";
 
 const Aboutme = () => {
   return (
@@ -13,15 +14,20 @@ const Aboutme = () => {
           <div className="col-9 col-md-6 order-1">
             <p className="lead">{aboutme.content}</p>
             <p>
-              {aboutme.skills.map((skill) => (
-                <span>{skill}</span>
+              {aboutme.skills.map((skill, index) => (
+                <span key={index}>{skill}</span>
               ))}
             </p>
             <p>
-              <button type="button" className="btn btn-primary btn-sm">
+              <a
+                type="button"
+                className="btn btn-primary btn-sm"
+                download="Himanshu Jain"
+                href={Resume}
+              >
                 {aboutme.buttonLabel}{" "}
                 <i className="fas fa-cloud-download-alt bg-primary"></i>
-              </button>
+              </a>
             </p>
           </div>
         </div>

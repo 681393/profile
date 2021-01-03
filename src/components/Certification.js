@@ -11,8 +11,8 @@ const Certification = () => {
             <img src={CertificationImage} className="img-fluid mb-5"></img>
           </div>
           <ul className="col-9 col-md-6 order-1 bar">
-            {certification.data.map((v) => (
-              <li className="mb-3">{v}</li>
+            {certification.data.map((v, index) => (
+              <li className="mb-3" key={index}>{v}</li>
             ))}
           </ul>
         </div>

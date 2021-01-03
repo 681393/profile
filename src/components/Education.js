@@ -11,8 +11,8 @@ const Education = () => {
             <img src={EducationImage} className="img-fluid"></img>
           </div>
           <ul className="col-9 col-md-6 bar">
-            {education.data.map((v) => (
-              <li className="mb-4">
+            {education.data.map((v, index) => (
+              <li className="mb-4" key={index}>
                 <h5 className="lead">{v.course}</h5>
                 <p className="mb-0">{v.college}</p>
                 <small className="text-muted">{v.duration}</small>

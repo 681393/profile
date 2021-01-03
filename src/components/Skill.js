@@ -11,16 +11,16 @@ const Skill = () => {
             <img src={SkillImage} className="img-fluid mb-5"></img>
           </div>
           <ul className="col-9 col-md-6 bar margin-bottom">
-            {skills.data.map((skill) => (
-              <li className="mb-4">
+            {skills.data.map((skill, index) => (
+              <li className="mb-4" key={index}>
                 <h5 className="lead">{skill.heading}</h5>
                 <p className="mb-0">
-                  {skill.data.map((v) => {
+                  {skill.data.map((v, index) => {
                     return (
-                      <>
+                      <span key={index}>
                         {v}
                         <span className="text-primary"> | </span>
-                      </>
+                      </span>
                     );
                   })}
                 </p>
