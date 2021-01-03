@@ -3,7 +3,10 @@ import { menuItems } from "../data/menuItems";
 const link = () => {
   return menuItems.map((menuItem, index) => (
     <li key={index} className="nav-item mx-2">
-      <a className={`nav-link ${menuItem.active}`} href={menuItem.link}>
+      <a
+        className={`nav-link ${index === 0 ? "active" : ""}`}
+        href={menuItem.link}
+      >
         {menuItem.item}
       </a>
     </li>

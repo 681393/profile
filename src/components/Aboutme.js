@@ -1,5 +1,6 @@
 import AboutmeImage from "../img/about_me.svg";
 import { aboutme } from "../data/aboutme";
+import { homepage } from "../data/homepage";
 import Resume from "../resume/HimanshuJain.pdf";
 
 const Aboutme = () => {
@@ -19,14 +20,11 @@ const Aboutme = () => {
               ))}
             </p>
             <p>
-              <a
-                type="button"
-                className="btn btn-primary btn-sm"
-                download="Himanshu Jain"
-                href={Resume}
-              >
-                {aboutme.buttonLabel}{" "}
-                <i className="fas fa-cloud-download-alt bg-primary"></i>
+              <a download={homepage.name} href={Resume}>
+                <button type="button" className="btn btn-primary btn-sm">
+                  {aboutme.buttonLabel}{" "}
+                  <i className="fas fa-cloud-download-alt bg-primary"></i>
+                </button>
               </a>
             </p>
           </div>
