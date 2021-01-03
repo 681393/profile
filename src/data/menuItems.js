@@ -1,5 +1,5 @@
 export const menuItems = [
-  { item: "Home", link: "#home", active: "active" },
+  { item: "Home", link: "#home" },
   { item: "About Me", link: "#aboutme-section" },
   { item: "Skills", link: "#skill-section" },
   { item: "Experience", link: "#experience-section" },

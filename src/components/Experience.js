@@ -26,7 +26,10 @@ const Experience = () => {
           <div className="container">
             <div className="carousel-inner">
               {experience.data.map((exp, index) => (
-                <div className={`carousel-item ${exp.active}`} key={index}>
+                <div
+                  className={`carousel-item ${index === 0 ? "active" : ""}`}
+                  key={index}
+                >
                   <div className="mb-2 d-flex justify-content-between">
                     <small className="text-primary">{exp.company}</small>
                     <small className="text-primary">{exp.duration}</small>
