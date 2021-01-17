@@ -19,15 +19,34 @@ html {
 #logo path:nth-child(1) {
   stroke-dasharray: 210;
   stroke-dashoffset: 210;
-  animation: logo 1.5s ease forwards;
+  animation: logo 4.5s ease forwards infinite;
 }
 #logo path:nth-child(2) {
   stroke-dasharray: 148;
   stroke-dashoffset: 148;
-  animation: logo 1.5s ease forwards 1s;
+  animation: logo 4.5s ease forwards infinite 1s;
 }
 
 @keyframes logo {
+  20%,
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes child1 {
+  from {
+    stroke-dashoffset: 210;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes child2 {
+  from {
+    stroke-dashoffset: 148;
+  }
   to {
     stroke-dashoffset: 0;
   }
