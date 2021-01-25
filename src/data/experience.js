@@ -7,7 +7,7 @@ export const experience = {
       role: "Senior Java Developer",
       client: "Fund Group (Wellington Management Company)",
       clientDesc:
-        "As part of Fund Group, we have provided various applications to client for its daily activities. These applications are used to process and manage data from various sources.",
+        "As part of Fund Group, we have provided various applications to client for its daily activities. These applications are used to process and manage data from various sources. These applications are built on Java/Spring-boot, Python and NodeJs",
       resp: [
         "Development of new modules and CRs across multiple applications.",
         "Planning, designing and implementation of the database tables for modules and CRs.",

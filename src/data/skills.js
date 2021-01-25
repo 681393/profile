@@ -13,6 +13,7 @@ export const skills = {
         "Redux Forms",
         "Formik",
         "Redux Thunk",
+        "Bootstrap",
       ],
     },
     {
@@ -31,6 +32,9 @@ export const skills = {
         "Docker",
         "Jenkins",
         "Ansible",
+        "AWS",
+        "Python",
+        "NodeJs",
       ],
     },
     {
@@ -56,6 +60,10 @@ export const skills = {
     {
       heading: "Version Control",
       data: ["Github", "IBM Jazz", "SVN", "VSS"],
+    },
+    {
+      heading: "Other Tools",
+      data: ["Talend Studio", "Jira", "ServiceNow"],
     },
   ],
 };
