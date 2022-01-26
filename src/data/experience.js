@@ -2,8 +2,33 @@ export const experience = {
   heading: "Experience",
   data: [
     {
+      company: "HCL Technologies",
+      duration: "Apr 2021 - Present",
+      role: "Senior Java Developer",
+      client: "MYToll Logistics",
+      clientDesc:
+        "MYToll is a Logistics company which provide transport service for consignment movement from one place to another.",
+      resp: [
+        "Development of new modules and CRs across multiple apis.",
+        "Planning, designing and implementation of the database tables for modules and CRs.",
+        "Implementation of different AWS services like Lambda, API Gateway etc for the new CRs.",
+      ],
+      techUsed: [
+        "Java",
+        "Spring-Boot",
+        "NodeJs",
+        "Spring Data JPA",
+        "JUnit",
+        "AWS",
+        "Github",
+        "MySql DB",
+        "Spring Tool Suite",
+        "Visual Studio",
+      ],
+    },    
+    {
       company: "Publicis Sapient",
-      duration: "Oct 2020 - Present",
+      duration: "Oct 2020 - Apr 2021",
       role: "Senior Java Developer",
       client: "Fund Group (Wellington Management Company)",
       clientDesc:

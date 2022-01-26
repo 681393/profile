@@ -31,7 +31,6 @@ export const skills = {
         "JDBC",
         "Docker",
         "Jenkins",
-        "Ansible",
         "AWS",
         "Python",
         "NodeJs",
@@ -63,7 +62,7 @@ export const skills = {
     },
     {
       heading: "Other Tools",
-      data: ["Talend Studio", "Jira", "ServiceNow"],
+      data: ["Confluence", "Talend Studio", "Jira", "ServiceNow"],
     },
   ],
 };
