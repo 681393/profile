@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/profile/static/css/main.25bb1c15.chunk.css",
-    "main.js": "/profile/static/js/main.f1836cea.chunk.js",
-    "main.js.map": "/profile/static/js/main.f1836cea.chunk.js.map",
+    "main.js": "/profile/static/js/main.0a77068f.chunk.js",
+    "main.js.map": "/profile/static/js/main.0a77068f.chunk.js.map",
     "runtime-main.js": "/profile/static/js/runtime-main.679ae84c.js",
     "runtime-main.js.map": "/profile/static/js/runtime-main.679ae84c.js.map",
     "static/js/2.cb208f6b.chunk.js": "/profile/static/js/2.cb208f6b.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/profile/index.html",
     "static/css/main.25bb1c15.chunk.css.map": "/profile/static/css/main.25bb1c15.chunk.css.map",
     "static/js/2.cb208f6b.chunk.js.LICENSE.txt": "/profile/static/js/2.cb208f6b.chunk.js.LICENSE.txt",
-    "static/media/HimanshuJain.a06318cd.pdf": "/profile/static/media/HimanshuJain.a06318cd.pdf",
+    "static/media/HimanshuJain.313fd9b5.pdf": "/profile/static/media/HimanshuJain.313fd9b5.pdf",
     "static/media/about_me.a23f0aa2.svg": "/profile/static/media/about_me.a23f0aa2.svg",
     "static/media/certification.35a14766.svg": "/profile/static/media/certification.35a14766.svg",
     "static/media/education.df2d358f.svg": "/profile/static/media/education.df2d358f.svg",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.679ae84c.js",
     "static/js/2.cb208f6b.chunk.js",
     "static/css/main.25bb1c15.chunk.css",
-    "static/js/main.f1836cea.chunk.js"
+    "static/js/main.0a77068f.chunk.js"
   ]
 }
